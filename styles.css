@@ -2,7 +2,7 @@
 body {
     background-image: url('images/wave.jpg');
     background-repeat: no-repeat;
-    background-size: 1600px;
+    background-size: auto;
 }
 
 
