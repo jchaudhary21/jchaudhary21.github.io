@@ -40,7 +40,8 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_discord").style.visibility        = "visible";
+    // document.getElementById("txt_discord").style.visibility        = "visible";
+  
   }
 
   function mouseOver_website() {
@@ -55,7 +56,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("connect_with_us").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_website").style.visibility        = "visible";
+    // document.getElementById("txt_website").style.visibility        = "visible";
   }
 
   function mouseOver_instagram() {
@@ -70,7 +71,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_instagram").style.visibility        = "visible";
+    // document.getElementById("txt_instagram").style.visibility        = "visible";
 
   }
 
@@ -86,7 +87,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_twitter").style.visibility        = "visible";
+    // document.getElementById("txt_twitter").style.visibility        = "visible";
   }
 
   function mouseOver_github() {
@@ -101,7 +102,7 @@ window.onload = function(){
     document.getElementById("discord").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("connect_with_us").style.filter        = "blur(10px)";
-    document.getElementById("txt_github").style.visibility        = "visible";
+    // document.getElementById("txt_github").style.visibility        = "visible";
   }
 
   function mouseOver_linkedin() {
@@ -116,7 +117,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_linkedin").style.visibility        = "visible";
+    // document.getElementById("txt_linkedin").style.visibility        = "visible";
   }
 
   function mouseOver_whatsapp() {
@@ -131,7 +132,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_whatsapp").style.visibility        = "visible";
+    // document.getElementById("txt_whatsapp").style.visibility        = "visible";
   }
 
   function mouseOver_youtube() {
@@ -146,7 +147,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("documentation").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_youtube").style.visibility        = "visible";
+    // document.getElementById("txt_youtube").style.visibility        = "visible";
   }
 
   function mouseOver_wiki() {
@@ -161,7 +162,7 @@ window.onload = function(){
     document.getElementById("github").style.filter          = "blur(10px)";
     document.getElementById("connect_with_us").style.filter   = "blur(10px)";
     document.getElementById("projects").style.filter        = "blur(10px)";
-    document.getElementById("txt_wiki").style.visibility        = "visible";
+    // document.getElementById("txt_wiki").style.visibility        = "visible";
   }
 
   function mouseOut() {
