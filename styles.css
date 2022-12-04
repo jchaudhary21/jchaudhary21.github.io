@@ -1,0 +1,375 @@
+/* ---- Body properties --- */
+body {
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon-berger-1323550.jpg&fm=jpg');
+    background-repeat: no-repeat;
+   
+}
+
+
+ /* logo and effect  */
+.dot {
+ 
+    margin-top: 10px;
+    margin-left: 695px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(133, 139, 167);
+    border-radius: 100%;
+    display: inline-block;
+    opacity: 0.1;
+    z-index: -5;
+  }
+
+div.logo { 
+
+    margin-top: -160px;
+    margin-left: 689px;
+    content: url('https://raw.githubusercontent.com/atom-robotics-lab/atom-robotics-lab.github.io/main/static/images/background.png');
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    z-index: 1 ;
+}
+
+/* Font Property */
+div.handle { 
+
+    margin-top: 20px;
+    margin-left: 660px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+}
+
+
+div.connect_with_us{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 160px;
+}
+
+div.documentation{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 160px;
+}
+
+div.projects{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 160px;
+}
+
+
+
+/* connect with us  */
+div.discord{
+  
+    content: url('images/discord.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 160px;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+
+div.discord:hover {
+    width: 100px;
+
+}
+
+/* .discord:hover ~ .instagram , .discord:hover ~ .twitter , .discord:hover ~ .whatsapp , .discord:hover ~ .youtube , .discord:hover ~ .linkedin , .discord:hover ~ .linkedin{
+    filter: blur(10px);
+} */
+
+
+
+
+div.instagram{
+  
+ content: url('images/instagram.png');
+ width: 50px;
+ padding: 5px;
+ border-radius: 4px;
+ margin-left: 300px;
+ margin-top: -60px;
+ transition: width 2s, height 2s, transform 2s;
+   
+}
+
+div.instagram:hover {
+    width: 100px;
+
+  }
+
+
+
+div.twitter{
+  
+    content: url('images/twitter.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 440px;
+    margin-top: -60px;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+div.twitter:hover {
+ width: 100px;
+}
+
+
+div.whatsapp{
+  
+    content: url('images/whatsapp.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 560px;
+    margin-top: -60px;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+div.whatsapp:hover {
+ width: 100px;
+}
+
+
+   div.youtube{
+  
+    content: url('images/youtube.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 690px;
+    margin-top: -60px;
+    transition: width 2s, height 2s, transform 2s;
+   
+   }
+   div.youtube:hover {
+    width: 100px;
+  }
+
+
+
+   div.linkedin{
+  
+    content: url('images/linkedin.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 810px;
+    margin-top: -60px;
+    transition: width 2s, height 2s, transform 2s;
+   
+   }
+   div.linkedin:hover {
+    width: 100px;
+  }
+
+
+/* Documentation and Website */
+
+   div.website{
+  
+    content: url('images/internet.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 260px;
+    margin-top: -50px;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+div.website:hover {
+ width: 100px;
+}
+
+
+   div.wiki{
+  
+    content: url('images/wikipedia.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 160px;
+    margin-top: 17px;
+    transition: width 2s, height 2s, transform 2s;
+   
+   }
+   div.wiki:hover {
+    width: 100px;
+  }
+
+
+/* Project  */
+
+div.github{
+  
+    content: url('images/github.png');
+    width: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 160px;
+    transition: width 2s, height 2s, transform 2s;
+   
+   }
+   div.github:hover {
+    width: 100px;
+  }
+
+  /* pop up text  */
+ 
+  div.txt_instagram{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 420px;
+    margin-top: -200px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+
+
+}
+
+div.txt_twitter{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 570px;
+    margin-top: -290px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+div.txt_whatsapp{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 670px;
+    margin-top: -200px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+div.txt_youtube{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 800px;
+    margin-top: -200px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+div.txt_linkedin{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 920px;
+    margin-top: -200px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+
+div.txt_wiki{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 290px;
+    margin-top: -40px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+
+div.txt_website{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 390px;
+    margin-top: -180px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+div.txt_github{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 290px;
+    margin-top: -100px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+ 
+div.txt_discord{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    color:rgb(73, 76, 79);
+    margin-left: 280px;
+    margin-top: -320px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: center;
+    height: 200px;
+    width : 200px;
+    visibility: hidden;
+}
+
+
