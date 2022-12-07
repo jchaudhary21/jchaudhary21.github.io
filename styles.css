@@ -1,8 +1,21 @@
 /* ---- Body properties --- */
 body {
-    background-image: url('images/cliff_abs.jpg');
+    /* background-image: url('images/alien.png'); */
+    /* /* background-image: url('images/mntn_top.jpg'); */
+    /* background-image: url('images/moon_light.png'); */
+     /* background-image: url('images/pokemon.jpg'); */
+     /* background-image: url('images/street_sign.jpg'); */
+     /* background-image: url('images/wire_cld.jpg'); */
+    /* background-image: url('images/cliff_abs.jpg');*/
+    /* background-image: url('images/rain_window.png'); */
+     background-image: url('images/saitama.jpg');
+    /* background-image: url('images/temple_abs.jpg'); */
+    /* background-image: url('images/wall-E.jpg'); */
+    /* background-image: url('images/wave.jpg');   */
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+   
 }
 
 
@@ -36,7 +49,7 @@ div.handle {
 
     margin-top: 20px;
     margin-left: 660px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'Orbitron', sans-serif ;
     font-size: large;
     color:rgb(255, 255, 255);
 }
